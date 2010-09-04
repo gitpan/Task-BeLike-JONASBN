@@ -1,6 +1,6 @@
 package Module::Build::Bundle;
 
-# $Id: Bundle.pm 7149 2010-09-01 11:52:05Z jonasbn $
+# $Id: Bundle.pm 7158 2010-09-01 19:29:07Z jonasbn $
 
 use strict;
 use warnings;
@@ -11,7 +11,7 @@ use Carp qw(croak);
 use Cwd qw(getcwd);
 use Tie::IxHash;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub ACTION_build {
     my $self = shift;

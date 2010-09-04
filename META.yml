@@ -4,6 +4,7 @@ author:
   - 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>'
 configure_requires:
   Module::Build: 0.36
+  Tie::IxHash: 0
 generated_by: 'Module::Build version 0.3603'
 license: artistic
 meta-spec:
@@ -13,7 +14,7 @@ name: Task-BeLike-JONASBN
 provides:
   Task::BeLike::JONASBN:
     file: lib/Task/BeLike/JONASBN.pm
-    version: 1.00
+    version: 1.01
 requires:
   AppConfig: 0
   CPAN::Mini: 0
@@ -52,7 +53,6 @@ requires:
   Test::Pod: 1.14
   Test::Pod::Coverage: 1.04
   Test::Prereq: 0
-  Tie::IxHash: 0
   WWW::Mechanize: 0
   WWW::Mechanize::Cached: 0
   XML::Simple: 0
@@ -65,4 +65,4 @@ resources:
   homepage: http://logiclab.jira.com/wiki/display/BJONASBN/Home
   license: http://www.perlfoundation.org/artistic_license_1_0
   repository: http://logicLAB.jira.com/svn/BJONASBN
-version: 1.00
+version: 1.01
