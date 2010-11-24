@@ -1,12 +1,12 @@
 # Build.PL for Bundle-JONASBN
 
-# $Id: Build.PL 7182 2010-09-04 17:47:28Z jonasbn $
+# $Id: Build.PL 7285 2010-09-19 08:48:13Z jonasbn $
 
 use strict;
 use warnings;
 use Module::Build::Bundle;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my $build = Module::Build::Bundle->new(
     dist_author   => 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>',
@@ -18,6 +18,7 @@ my $build = Module::Build::Bundle->new(
     },
     requires      => {
         'AppConfig'                 => '0',
+        'App::Ack'                  => '0',
         'Class::Accessor'           => '0',
         'CPAN::Mini'                => '0',
         'CPAN::Reporter'            => '0',
@@ -31,6 +32,7 @@ my $build = Module::Build::Bundle->new(
         'Devel::Cover'              => '0',
         'Error'                     => '0',
         'ExtUtils::Install'         => '1.47',
+        'File::Copy'                => '0',
         'File::Path'                => '0',
         'File::Slurp'               => '0',
         'Hash::Merge'               => '0',

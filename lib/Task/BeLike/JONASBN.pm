@@ -1,6 +1,6 @@
 package Task::BeLike::JONASBN;
 
-# $Id: JONASBN.pm 7182 2010-09-04 17:47:28Z jonasbn $
+# $Id: JONASBN.pm 7367 2010-11-24 20:25:36Z jonasbn $
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
@@ -10,7 +10,7 @@ use strict;
 use vars qw{$VERSION};
 
 BEGIN {
-    $VERSION = '1.01';
+    $VERSION = '1.02';
 }
 
 1;
@@ -30,6 +30,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 =head1 CONTENTS
 
 =over
+
+=item * L<App::Ack>
 
 =item * L<AppConfig>
 
@@ -58,6 +60,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 =item * L<Error>
 
 =item * L<ExtUtils::Install>, 1.47
+
+=item * L<File::Copy>
 
 =item * L<File::Path>
 

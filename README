@@ -5,6 +5,7 @@ SYNOPSIS
         perl -MCPAN -e 'install Task::BeLike::JONASBN'
 
 CONTENTS
+    * App::Ack
     * AppConfig
     * CPAN::Mini
     * CPAN::Reporter
@@ -19,6 +20,7 @@ CONTENTS
     * Devel::Cover
     * Error
     * ExtUtils::Install, 1.47
+    * File::Copy
     * File::Path
     * File::Slurp
     * Hash::Merge

@@ -3,9 +3,8 @@ abstract: 'Collection of modules often used by jonasbn'
 author:
   - 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>'
 configure_requires:
-  Module::Build: 0.36
-  Tie::IxHash: 0
-generated_by: 'Module::Build version 0.3603'
+  Module::Build::Bundle: 0.02
+generated_by: 'Module::Build::Bundle version 0.02'
 license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -14,8 +13,9 @@ name: Task-BeLike-JONASBN
 provides:
   Task::BeLike::JONASBN:
     file: lib/Task/BeLike/JONASBN.pm
-    version: 1.01
+    version: 1.02
 requires:
+  App::Ack: 0
   AppConfig: 0
   CPAN::Mini: 0
   CPAN::Reporter: 0
@@ -30,6 +30,7 @@ requires:
   Devel::Cover: 0
   Error: 0
   ExtUtils::Install: 1.47
+  File::Copy: 0
   File::Path: 0
   File::Slurp: 0
   Hash::Merge: 0
@@ -65,4 +66,4 @@ resources:
   homepage: http://logiclab.jira.com/wiki/display/BJONASBN/Home
   license: http://www.perlfoundation.org/artistic_license_1_0
   repository: http://logicLAB.jira.com/svn/BJONASBN
-version: 1.01
+version: 1.02
