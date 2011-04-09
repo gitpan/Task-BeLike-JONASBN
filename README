@@ -6,6 +6,7 @@ SYNOPSIS
 
 CONTENTS
     * App::Ack
+    * App::Prove
     * AppConfig
     * CPAN::Mini
     * CPAN::Reporter
@@ -30,13 +31,16 @@ CONTENTS
     * Module::Info::File
     * Module::Load
     * Params::Validate, 0.85
+    * Perl::Critic
     * Perl::Tidy
     * Pod::Simple::Wiki
     * Spreadsheet::WriteExcel
+    * TAP::Formatter::JUnit
     * Template
     * Term::ReadLine::Perl
     * Test::Class
     * Test::Exception
+    * Test::Fatal
     * Test::Kwalitee
     * Test::MockObject::Extends
     * Test::More
@@ -44,16 +48,11 @@ CONTENTS
     * Test::Pod, 1.14
     * Test::Pod::Coverage, 1.04
     * Test::Prereq
+    * Try::Tiny
     * WWW::Mechanize
     * WWW::Mechanize::Cached
     * XML::Simple
     * YAML
-
-SEE ALSO
-    * Task
-
-AUTHOR
-    Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
 
 COPYRIGHT & LICENSE
     Copyright 2009 Jonas B. Nielsen (jonasbn), All Rights Reserved.
