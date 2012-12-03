@@ -1,6 +1,6 @@
 package Task::BeLike::JONASBN;
 
-# $Id: JONASBN.pm 7561 2011-04-09 07:47:31Z jonasbn $
+# $Id: JONASBN.pm 8030 2012-12-03 18:53:57Z jonasbn $
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
@@ -10,7 +10,7 @@ use strict;
 use vars qw{$VERSION};
 
 BEGIN {
-    $VERSION = '1.03';
+    $VERSION = '1.04';
 }
 
 1;
@@ -65,9 +65,13 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 
 =item * L<File::Copy|File::Copy>
 
+=item * L<File::Find::Rule|File::Find::Rule>
+
 =item * L<File::Path|File::Path>
 
 =item * L<File::Slurp|File::Slurp>
+
+=item * L<File::Which|File::Which>
 
 =item * L<Hash::Merge|Hash::Merge>
 
@@ -85,6 +89,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 
 =item * L<Perl::Critic|Perl::Critic>
 
+=item * L<Perl::Critic::Bangs|Perl::Critic::Bangs>
+
 =item * L<Perl::Tidy|Perl::Tidy>
 
 =item * L<Pod::Simple::Wiki|Pod::Simple::Wiki>
@@ -98,6 +104,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 =item * L<Term::ReadLine::Perl|Term::ReadLine::Perl>
 
 =item * L<Test::Class|Test::Class>
+
+=item * L<Test::DatabaseRow|Test::DatabaseRow>
 
 =item * L<Test::Exception|Test::Exception>
 
@@ -117,6 +125,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 
 =item * L<Test::Prereq|Test::Prereq>
 
+=item * L<Tie::IxHash|Tie::IxHash>
+
 =item * L<Try::Tiny|Try::Tiny>
 
 =item * L<WWW::Mechanize|WWW::Mechanize>
@@ -127,11 +137,15 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 
 =item * L<YAML|YAML>
 
+=item * L<YAML::Shell|YAML::Shell>
+
+=item * L<local::lib|local::lib>
+
 =back
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 Jonas B. Nielsen (jonasbn), All Rights Reserved.
+Copyright 2009-2012 Jonas B. Nielsen (jonasbn), All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

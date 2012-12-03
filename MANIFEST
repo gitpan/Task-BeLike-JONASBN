@@ -7,3 +7,4 @@ META.yml
 README
 t/load.t
 t/pod.t
+Makefile.PL
