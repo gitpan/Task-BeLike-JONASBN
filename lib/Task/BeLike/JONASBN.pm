@@ -1,6 +1,6 @@
 package Task::BeLike::JONASBN;
 
-# $Id: JONASBN.pm 8030 2012-12-03 18:53:57Z jonasbn $
+# $Id: JONASBN.pm 8186 2013-08-01 14:20:42Z jonasbn $
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
@@ -10,7 +10,7 @@ use strict;
 use vars qw{$VERSION};
 
 BEGIN {
-    $VERSION = '1.04';
+    $VERSION = '1.05';
 }
 
 1;
