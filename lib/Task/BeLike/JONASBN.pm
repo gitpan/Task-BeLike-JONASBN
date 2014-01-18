@@ -1,6 +1,6 @@
 package Task::BeLike::JONASBN;
 
-# $Id: JONASBN.pm 8186 2013-08-01 14:20:42Z jonasbn $
+# $Id$
 
 # Courtesy of Adam Kennedy
 # http://search.cpan.org/dist/Task/lib/Task.pm
@@ -10,7 +10,7 @@ use strict;
 use vars qw{$VERSION};
 
 BEGIN {
-    $VERSION = '1.05';
+    $VERSION = '1.06';
 }
 
 1;
@@ -89,6 +89,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 
 =item * L<Perl::Critic|Perl::Critic>
 
+=item * L<Perl::Critic|Perl::logicLAB>
+
 =item * L<Perl::Critic::Bangs|Perl::Critic::Bangs>
 
 =item * L<Perl::Tidy|Perl::Tidy>
@@ -98,6 +100,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 =item * L<Spreadsheet::WriteExcel|Spreadsheet::WriteExcel>
 
 =item * L<TAP::Formatter::JUnit|TAP::Formatter::JUnit>
+
+=item * L<Task::Jenkins|Task::Jenkins>
 
 =item * L<Template|Template>
 
@@ -145,7 +149,7 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009-2012 Jonas B. Nielsen (jonasbn), All Rights Reserved.
+Copyright 2009-2014 Jonas B. Nielsen (jonasbn), All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

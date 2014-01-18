@@ -1,10 +1,36 @@
 Changes file for Task::BeLike::JONASBN
 
-$Id: Changes 8185 2013-08-01 14:19:49Z jonasbn $
+$Id$
 
 Project site changelog:
 
 http://logicLAB.jira.com/browse/BJONASBN#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
+
+1.05 2014-01-18
+
+- Changed repository to Github
+
+- Added Perl::Critic::logicLAB
+
+- Added Task::Jenkins
+
+- Specified requirement for Devel::Cover to be atleast version 1.00 [BJONASBN-54]
+
+  https://logiclab.jira.com/browse/BJONASBN-54
+
+- Added Test::CPAN::Changes to list of distributions I like [BJONASBN-53]
+
+  https://logiclab.jira.com/browse/BJONASBN-53
+
+- Added Test::CPAN::Changes test (t/changes.t), implementing automatic integrity test of 
+  the Changes file, see also BJONASBN-50 [BJONASBN-52]
+
+  https://logiclab.jira.com/browse/BJONASBN-52
+
+- Added Test::Kwalitee test (t/kwalitee.t) [BJONASBN-55]
+
+  https://logiclab.jira.com/browse/BJONASBN-55
+  
 
 1.05 2013-08-01
 

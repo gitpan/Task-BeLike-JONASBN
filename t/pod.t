@@ -1,4 +1,4 @@
-# $Id: pod.t 6919 2010-01-29 22:38:04Z jonasbn $ 
+# $Id$ 
 
 use Test::More;
 

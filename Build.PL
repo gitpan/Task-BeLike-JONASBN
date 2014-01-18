@@ -1,6 +1,6 @@
 # Build.PL for Bundle-JONASBN
 
-# $Id: Build.PL 8027 2012-12-03 18:37:02Z jonasbn $
+# $Id$
 
 use strict;
 use warnings;
@@ -31,7 +31,7 @@ my $build = Module::Build::Bundle->new(
         'Data::FormValidator'         => '0',
         'Date::Calc'                  => '0',
         'DateTime'                    => '0',
-        'Devel::Cover'                => '0',
+        'Devel::Cover'                => '1.00',
         'Error'                       => '0',
         'ExtUtils::Install'           => '1.47',
         'File::Copy'                  => '0',
@@ -48,14 +48,17 @@ my $build = Module::Build::Bundle->new(
         'Module::Load'                => '0',
         'Params::Validate'            => '0.85',
         'Perl::Critic'                => '0',
+        'Perl::Critic::logicLAB'      => '0',
         'Perl::Critic::Bangs'         => '0',
         'Perl::Tidy'                  => '0',
         'Pod::Simple::Wiki'           => '0',
         'Spreadsheet::WriteExcel'     => '0',
         'TAP::Formatter::JUnit'       => '0',
+        'Task::Jenkins'               => '0',
         'Tie::IxHash'                 => '0',
         'Template'                    => '0',
         'Test::Class'                 => '0',
+        'Test::CPAN::Changes'         => '0',
         'Test::DatabaseRow'           => '0',
         'Test::Exception'             => '0',
         'Test::Fatal'                 => '0',
