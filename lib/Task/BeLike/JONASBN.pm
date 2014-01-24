@@ -6,12 +6,11 @@ package Task::BeLike::JONASBN;
 # http://search.cpan.org/dist/Task/lib/Task.pm
 
 use strict;
+use warnings;
 
-use vars qw{$VERSION};
+use 5.006; # 5.6.0
 
-BEGIN {
-    $VERSION = '1.06';
-}
+our $VERSION = '1.07';
 
 1;
 
@@ -108,6 +107,8 @@ Task::BeLike::JONASBN - Collection of modules often used by jonasbn
 =item * L<Term::ReadLine::Perl|Term::ReadLine::Perl>
 
 =item * L<Test::Class|Test::Class>
+
+=item * L<Test::CPAN::Changes>
 
 =item * L<Test::DatabaseRow|Test::DatabaseRow>
 
